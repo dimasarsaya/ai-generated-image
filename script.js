@@ -5,7 +5,7 @@ const OPENAI_API_KEY = "//API OPEN AI";
 let isImageGenerating = false;
 
 
-
+// Update fucntion card
 const updateImageCard = (imgDataArray) => {
     imgDataArray.forEach((imgObject, index) => {
         const imgCard = imageGallery.querySelectorAll(".img-card")[index];
